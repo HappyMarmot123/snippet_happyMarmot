@@ -4,7 +4,7 @@
         "body": [
 					"await axios.get('$1')",
 					"    .then((response) => {",
-					"        $2", // Placeholder for handling the response
+					"        $2",
 					"    })",
 					"    .catch((e) => {",
 					"        console.log(e);",
