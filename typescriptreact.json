@@ -1,0 +1,45 @@
+{
+  "axios_snippet": {
+    "prefix": "axiosGet",
+    "body": [
+      "await axios.get('$1')",
+      "    .then((response) => {",
+      "        $2",
+      "    })",
+      "    .catch((e) => {",
+      "        console.log(e);",
+      "    });"
+    ],
+    "description": "axios-then-catch"
+  },
+  "useState_snippet": {
+    "prefix": "useState",
+    "body": ["const [$1, set$1] = useState($2);"],
+    "description": "React useState hook"
+  },
+  "useEffect_snippet": {
+    "prefix": "useEffect",
+    "body": ["useEffect(() => {", "    $1", "}, []);"],
+    "description": "React useEffect hook"
+  },
+  "component_snippet": {
+    "prefix": "funcComp",
+    "body": [
+      "const $1 = () => {",
+      "    return (",
+      "        <>",
+      "            $2",
+      "        </>",
+      "    );",
+      "};",
+      "",
+      "export default $1;"
+    ],
+    "description": "Basic functional React component"
+  },
+  "arrow_function_snippet": {
+    "prefix": "funcArrow",
+    "body": ["const $1 = () => {}"],
+    "description": "Basic functional React component"
+  }
+}
