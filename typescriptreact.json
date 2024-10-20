@@ -41,5 +41,23 @@
     "prefix": "funcArrow",
     "body": ["const $1 = () => {}"],
     "description": "Basic functional React component"
+  },
+  "elem_section": {
+    "prefix": "elemSection",
+    "body": [
+      "<>",
+      "   <header>",
+      "     <nav></nav>",
+      "   </header>",
+      "   <main>",
+      "     <section>",
+      "       <caption>설명 또는 제목</caption>",
+      "       <article>컴포넌트(물품)</article>",
+      "     </section>",
+      "   </main>",
+      "   <footer></footer>",
+      "</>",
+    ],
+    "description": "Basic functional React component"
   }
 }
